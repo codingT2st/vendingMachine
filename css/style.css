@@ -1,0 +1,10 @@
+
+*{margin:0;padding:0;list-style:none;}
+#product .list{overflow:hidden;}
+#product .list li{float:left;width:100px;height:100px;line-height:100px;text-align:center;border:1px solid blue;}
+#product .list li a{display:block;}
+#payment .total{border:2px solid red;height:50px;}
+#payment #pocket{text-align:right;}
+#payment #pocket .total{border:none;text-align:right;}
+#payment .total.on{background-color:red;}
+#message{height:200px;overflow: scroll;}

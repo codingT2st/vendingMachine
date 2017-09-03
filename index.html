@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>vending machine</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    </head>
+    <body>
+        <div class="app">
+            <div id="product">
+                <ul class="list"></ul>
+            </div>
+            <div id="payment">
+                <div class="total">0원</div>
+                <button class="payback">반환버튼</button>
+
+                <p>내주머니</p>
+                <div id="pocket">
+                    <ul class="list"></ul>
+                    <p class="total">지금 내돈 : 10,000원</p>
+                </div>
+            </div>
+            <div id="message"></div>
+        </div>        
+
+        <script src="./lib/eventListener.polyfill.js"></script>
+        <script src="./src/model.js"></script>
+        <script src="./src/utils.js"></script>
+        <script src="./src/templates.js"></script>
+        <script src="./src/components/message.js"></script>
+        <script src="./src/components/cart.js"></script>
+        <script src="./src/components/payInfo.js"></script>
+        <script src="./src/components/product.js"></script>
+        <script src="./src/components/point.js"></script>
+        <script src="./src/components/payment.js"></script>
+        <script src="./src/index.js"></script>
+    </body>
+    </html>
